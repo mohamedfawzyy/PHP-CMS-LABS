@@ -1,0 +1,21 @@
+h1,h4{
+    color: red;
+    text-align: center;
+}
+.main{
+    text-align: center;
+    background-color: bisque;
+    width: 50%;
+    margin-inline: auto;
+    border: 2px dashed brown;
+}
+.phpinfo{
+    width: 75%;
+    margin-inline: auto;
+
+}
+.contaierInfo{
+    background-color: cadetblue;
+    width: 80%;
+    margin-inline: auto;
+}

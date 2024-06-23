@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="links">
+           
+                <ul >
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="./home.html"><li>Road Map</li></a>
+                    <a href="./Reservation.html"><li>Registeration From</li></a>
+                     <a href="https://iti.gov.eg/home"><li>Contact</li></a>
+                </ul>
+           
+        </div>
+       
+        <div class="logo" style="text-align: right;">
+            <img src="../images/logo.jpg" width="100px" alt="logo">
+        </div>
+    </nav>
+
+
+    <section class="Reservation">
+        <form action="">
+            <h3 style="color: brown;" class="textCenter">Register - Create Account</h3>
+            <p style="border: 1px dashed brown;" class="textCenter">Field marked with <span>*</span> are compulsory fields</psan>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="bagtr">
+                            <label for="name"><span>*</span>your Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bagtr">
+                            <label for="email"><span>*</span>E-mail ID</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bagtr"><label for="second-email"><span>*</span>Alternative E-Mail ID</label></td>
+                        <td>
+                            <input type="email" name="second-email" id="second-email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bagtr"><label for="phone"><span>*</span>Your Phone</label></td>
+                        <td>
+                            <p>Country Code - City Code - Phone Number</p>
+                            <input type="text" size="8"> - 
+                            <input type="text" size="4"> - 
+                            <input type="text" size="15">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bagtr"><label for="Phone2"><span>*</span>Mobile Phobe</label></td>
+                        <td>
+                            <input type="text" name="Phone2" id="Phone2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bagtr">
+                            <label for="Address"><span>*</span>Your Postal Address</label>
+                        </td>
+                       <td>
+                        <textarea name="Adress" id="Address" cols="30" rows="8" ></textarea>
+                       </td>
+                    </tr>
+                    <tr>
+                        <td class="bagtr"><label for="country"><span>*</span>Country</label></td>
+                        <td>
+                            <select name="country" id="country">
+                                <option value="none" disabled>-------Select One</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="USA">USA</option>
+                                <option value="Canda">Canda</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bagtr"><label for="password"><span>*</span>Password</label></td>
+                        <td>
+                            <input type="password" name="password" id="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bagtr"><label for="repassword"><span>*</span>Re-Enter Password</label></td>
+                        <td>
+                            <input type="password" name="repassword" id="repassword">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" name="acceptTerms" id="acceptTerms">
+                            <label for="acceptTerms">I accept The <a href="#">Terms Of Use</a></label>
+                        </td>
+                    </tr>
+                    <tr>
+                       <td>
+                       </td>
+                       <td>
+                        <input type="submit" value="Continue >>">
+                        <input type="reset" value="Reset">
+                       </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </section>
+   
+</body>
+</html>

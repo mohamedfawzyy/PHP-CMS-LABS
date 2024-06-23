@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Home{
+    height: 100vh;
+}
+nav{
+    background-color: black;
+    color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 10px;
+   height: 15%;
+}
+
+.mainSection{
+    height: 85%;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.logo img{
+    height: 80px;
+    width: 150px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 10px;
+    transition: all 1s;
+}
+.mainSection img{
+    width: 100%;
+    height: 100%;
+}
+
+textarea{
+    resize: none;
+}
+.Reservation{
+    padding: 30px;
+}
+form{
+    padding: 10px;
+    border: 2px solid brown;
+    background-color: antiquewhite;
+    width: 50%;
+    margin-inline:auto ;
+}
+.textCenter{
+    text-align: center;
+}
+.list1 , .list2{
+    display: inline-block;
+    width: 48%;
+}
+.RoadMap{
+    padding: 20px;
+}
+.bagtr{
+    background-color:aquamarine;
+    text-align: right;
+}
+span{
+    color: red;
+}
+nav li:hover{
+    background-color: red;
+}
