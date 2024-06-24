@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color: brown;
+
+}
+h3 span{
+    color: blue;
+}
+.task{
+    padding: 10px;
+    font-size: 24px;
+    margin-block: 10px;
+}
+li{
+    margin-block:5px;
+}
+.task02{
+    background-color: aquamarine;
+}
+
+.task03{
+    background-color: bisque;
+    color: #852548;
+}
+
+.task04 {
+    background-color: 	#8ca9b9;
+}
+
+.task05 {
+    background-color: 	#f8d2f9;
+}
