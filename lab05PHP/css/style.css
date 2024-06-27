@@ -1,0 +1,21 @@
+h1{
+text-align: center;
+}
+.container{
+    width: 50%;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: auto;
+}
+.box{
+    width: 50%;
+    text-align: center;
+}
+.session{
+    background-color: aqua;
+}
+
+.session{
+    background-color: aquamarine;
+}
